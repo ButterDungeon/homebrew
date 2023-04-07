@@ -1,0 +1,572 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "crystalLegends",
+				"abbreviation": "CL",
+				"full": "Crystal Legends",
+				"color": "4955ca",
+				"authors": [
+					"CL staff + friends"
+				],
+				"convertedBy": [
+					"Butter"
+				],
+				"version": "2023.4.7",
+				"url": "https://cdn.discordapp.com/attachments/704081845750333521/1093867161216364636/Training_Video.mp4",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1572301894,
+		"dateLastModified": 1680886092,
+		"_dateLastModifiedHash": "35191aba6b"
+	},
+	"race": [
+		{
+			"name": "Kitsune",
+			"source": "crystalLegends",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/704081845750333521/1093938506621014116/Kitsune_example.jpg"
+						}
+					}
+				],
+				"entries": [
+					{
+						"entries": [
+							"Kitsune is an ancient race, one not often known to the mortal world, however shifts in the power structure have allowed for the race to return to the mortal plane without hiding what they are. Some areas still see them as legends to be feared, others hunt them, and few worship them. Ragnarok has allowed for a long since hidden bloodlines to live their lives freely and forced some to relocate.",
+							"Kitsune mature by their early twenties, when they cease to physically age, they normally live less than a century. The more tails a kitsune possesses, the further their lifespan expands.",
+							"Kitsune have one tail when they are born and gain an additional tail at 3rd, 5th, 7th, 9th, 13th, 15th, 17th, and 20th levels."
+						]
+					},
+					{
+						"name": "Mistborn",
+						"entries": [
+							"Mistborn Kitsune originated from a plane of Mist thousands of years ago, being the children of Inari and Fenrir. Within the plane they would be hunted down and consumed by mistwalkers and other beasts of fog. In order to elude such a cruel fate, they escaped their realm finding or fabricating bodies for their spirits and starting lives away from their home land. Some of them followed their mother Inari, while others forged their own paths. Those under Inari's leadership and guidance, resorted to possession as a way to acquire physical forms. They created a beautiful and powerful city though due to a clash with the Crimson Legion, their nation fell and soon after so did Inari, leading the survivors to scatter across the world approximately 4 years ago. Many of them are known for their cold and standoffish nature and tend to be logical and focused on survival."
+						]
+					},
+					{
+						"name": "Spring",
+						"entries": [
+							"After Ragnarok, the fey spring was recreated by Aurora and taken over by their new Queen Valorie Kayn. Many Kitsunes found a new home there becoming attuned to the season of spring, while others were born within it. Most Kitsunes prefer the calm lifestyle that the city of spring provides, although their curious nature and desire to indulge in new found joys leads some of them to different directions. Many of them are known for their charming nature and value the pleasantries of life."
+						]
+					},
+					{
+						"name": "Celestial",
+						"entries": [
+							"After Inari was felled approximately 4 years ago, her children scattered across the world, some of them remaining set in their ways, while others accepted the goddess Aurora as their new guardian. Aurora taught them kindness, care, but most of all balance, as their nature steadily became more celestial. In other cases, some worshippers of Aurora or people that find themselves in great need are rumored to have received a blessing, providing them with Kitsune-like characteristics and divine powers. Many of them are known for their selfless nature and bravery."
+						]
+					},
+					{
+						"name": "Trickster",
+						"entries": [
+							"The descendants of Kajika the Four Tailed Fox God, who later on went to join Aurora's Pantheon. They exist in different places of the world, although due to many legends and myths behind their existence certain nations view them with caution and hostility, often hunting them for the magical properties of their pelts. Thus, they are often forced to conceal their identities in order to protect themselves from harm. Many of them are known for their chaotic and adventurous nature."
+						]
+					}
+				]
+			},
+			"entries": [
+				{
+					"name": "Creature Type",
+					"type": "entries",
+					"entries": [
+						"You are a Humanoid. You are also considered a fey for any prerequisite or effect that requires you to be a fey."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"type": "entries",
+					"entries": [
+						"You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"type": "entries",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"name": "Keen Senses",
+					"type": "entries",
+					"entries": [
+						"Much like the foxes they resemble, kitsunes have heightened senses. You have proficiency in the {@skill Perception} skill."
+					]
+				},
+				{
+					"name": "Disguise Appearance",
+					"type": "entries",
+					"entries": [
+						"With the use of illusion magic you can hide your tails, ears, fur and other distinct traits of your heritage in order to appear as a human. To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check (DC 13 + your proficiency bonus) to see through the illusion."
+					]
+				},
+				{
+					"name": "Origin",
+					"type": "entries",
+					"entries": [
+						"Whenever you choose this race, you gain an additional benefit based on one of the following options of your Origin."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Mistborn",
+					"entries": [
+						{
+							"name": "Mist Form",
+							"type": "entries",
+							"entries": [
+								"When you take damage, you can use your reaction to momentarily turn your body into mist, reducing the damage you take to 0. Once you use this trait, you can't do so again until you finish a long rest."
+							]
+						},
+						{
+							"name": "Legacy of Niflheim",
+							"type": "entries",
+							"entries": [
+								"You know the {@spell shape water} cantrip. Starting at 3rd level, you can cast the {@spell misty step} spell with this trait. Once you cast that spell with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Spring",
+					"entries": [
+						{
+							"name": "Every Rose Has Its Thorn",
+							"type": "entries",
+							"entries": [
+								"As a bonus action, you can cause flower-filled vines to wrap around your body. These vines remain for 1 minute, until you die, or until you dismiss them as a bonus action. While these vines remain, you have a +1 bonus to your Armor Class, and you can use a bonus action to unleash a flurry of razor-sharp petals. When you do so, each creature within 10 feet of you to takes slashing damage equal to {@damage 1d6} + your proficiency bonus. Once you use this trait, you can't use it again until you finish a short or long rest."
+							]
+						},
+						{
+							"name": "Legacy of Spring",
+							"type": "entries",
+							"entries": [
+								"You know the {@spell druidcraft} cantrip."
+							]
+						},
+						{
+							"name": "Silver Tongue",
+							"type": "entries",
+							"entries": [
+								"When you fail a Charisma check, you can choose to reroll it. Once you use this trait, you can't use it again until you finish a long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Celestial",
+					"entries": [
+						{
+							"name": "Legacy of the Divine",
+							"type": "entries",
+							"entries": [
+								"You know the {@spell dancing lights} cantrip."
+							]
+						},
+						{
+							"name": "Mastery of Life and Death",
+							"type": "entries",
+							"entries": [
+								"As a bonus action, you can expend a number of hit points equal to your level to cause one creature of your choice within 30 feet of you to regain a number of hit points equal to twice the amount you expend. Once you use this trait, you can't use it again until you finish a short or long rest."
+							]
+						},
+						{
+							"name": "Reactive Resistance",
+							"type": "entries",
+							"entries": [
+								"When you take necrotic or radiant damage, you can use your reaction to dampen the incoming energy. When you do so, you have resistance to the triggering damage type until the start of your next turn. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Trickster",
+					"entries": [
+						{
+							"name": "A Fox's Guise",
+							"type": "entries",
+							"entries": [
+								"As an action, you can alternate between your humanoid form and a fox form. When you change to your fox form (Creature Type: Small Beast), your equipment merges with you and has no effect until you revert to your humanoid form. While in fox form, you can't cast spells that require somatic components. Your movement speed increases by 10 feet and you have advantage on ability checks and saves that use Dexterity as well as Wisdom ({@skill Perception}) checks. You gain disadvantage on any strength saves or checks in fox form. Your armor class equals 10 + your Dexterity modifier. You can use class features while within this form."
+							]
+						},
+						{
+							"name": "Bite",
+							"type": "entries",
+							"entries": [
+								"While in fox form, you can use your canine jaws to make unarmed strikes that deal {@damage 1d6} piercing damage on a hit. When you attack with your jaws, you can use Dexterity instead of your Strength modifier for the attack and damage rolls."
+							]
+						},
+						{
+							"name": "Legacy of the Fool",
+							"type": "entries",
+							"entries": [
+								"You know the {@spell minor illusion} cantrip. Starting at 3rd level, you can cast the {@spell mirror image} spell with this trait. Starting 5th level, you can also cast the {@spell invisibility} spell with this trait, without requiring a material component. Once you cast {@spell mirror image} or {@spell invisibility} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+							]
+						},
+						{
+							"name": "Quick-Witted",
+							"type": "entries",
+							"entries": [
+								"You have proficiency in the {@skill Deception} skill and the {@skill Stealth} skill."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Crystal Legends: Races",
+			"source": "crystalLegends",
+			"caption": "Character Race Options",
+			"colLabels": [
+				"Race"
+			],
+			"colStyles": [
+				"text-align-left"
+			],
+			"rows": [
+				[
+					"{@race Aarakocra|MotM}"
+				],
+				[
+					"{@race Aasimar|MotM}"
+				],
+				[
+					"{@race Bugbear|MotM}"
+				],
+				[
+					"{@race Centaur|MotM}"
+				],
+				[
+					"{@race Changeling|MotM}"
+				],
+				[
+					"{@race Dragonborn (Chromatic)|FTD}"
+				],
+				[
+					"{@race Dragonborn (Gem)|FTD}"
+				],
+				[
+					"{@race Dragonborn (Metallic)|FTD}"
+				],
+				[
+					"{@race Duergar|MotM}"
+				],
+				[
+					"{@race Dwarf (Hill)|PHB}"
+				],
+				[
+					"{@race Dwarf (Mark of Warding)|ERLW}"
+				],
+				[
+					"{@race Dwarf (Mountain)|PHB}"
+				],
+				[
+					"{@race Elf (Drow)|PHB}"
+				],
+				[
+					"{@race Eladrin|MTF}"
+				],
+				[
+					"{@race Elf (High)|PHB}"
+				],
+				[
+					"{@race Elf (Mark of Shadow)|ERLW}"
+				],
+				[
+					"{@race Elf (Pallid)|EGW}"
+				],
+				[
+					"{@race Elf (Sea)|MTF}"
+				],
+				[
+					"{@race Elf (Shadar-kai)|MTF}"
+				],
+				[
+					"{@race Elf (Wood)|PHB}"
+				],
+				[
+					"{@race Fairy|MotM}"
+				],
+				[
+					"{@race Firbolg|MotM}"
+				],
+				[
+					"{@race Genasi (Air)|MotM}"
+				],
+				[
+					"{@race Genasi (Earth)|MotM}"
+				],
+				[
+					"{@race Genasi (Fire)|MotM}"
+				],
+				[
+					"{@race Genasi (Water)|MotM}"
+				],
+				[
+					"{@race Githyanki|MotM}"
+				],
+				[
+					"{@race Githzerai|MotM}"
+				],
+				[
+					"{@race Deep Gnome|MotM}"
+				],
+				[
+					"{@race Gnome (Forest)|PHB}"
+				],
+				[
+					"{@race Gnome (Mark of Scribing)|ERLW}"
+				],
+				[
+					"{@race Gnome (Rock)|PHB}"
+				],
+				[
+					"{@race Goblin|MotM}"
+				],
+				[
+					"{@race Goliath|MotM}"
+				],
+				[
+					"{@race Half-Elf|PHB}"
+				],
+				[
+					"{@race Half-Elf (Aquatic Elf Descent)|SCAG}"
+				],
+				[
+					"{@race Half-Elf (Drow Descent)|SCAG}"
+				],
+				[
+					"{@race Half-Elf (Moon Elf or Sun Elf Descent)|SCAG}"
+				],
+				[
+					"{@race Half-Elf (Wood Elf Descent)|SCAG}"
+				],
+				[
+					"{@race Half-Elf (Mark of Detection)|ERLW}"
+				],
+				[
+					"{@race Half-Elf (Mark of Storm)|ERLW}"
+				],
+				[
+					"{@race Half-Orc|PHB}"
+				],
+				[
+					"{@race Half-Orc (Mark of Finding)|ERLW}"
+				],
+				[
+					"{@race Halfling (Ghostwise)|SCAG}"
+				],
+				[
+					"{@race Halfling (Lightfoot)|PHB}"
+				],
+				[
+					"{@race Halfling (Lotusden)|EGW}"
+				],
+				[
+					"{@race Halfling (Stout)|PHB }"
+				],
+				[
+					"{@race Halfling (Mark of Healing)|ERLW}"
+				],
+				[
+					"{@race Halfling (Mark of Hospitality)|ERLW}"
+				],
+				[
+					"{@race Harengon|MotM}"
+				],
+				[
+					"{@race Hobgoblin|MotM}"
+				],
+				[
+					"{@race Human|PHB}"
+				],
+				[
+					"{@race Human (Variant)|PHB}"
+				],
+				[
+					"{@race Human (Mark of Finding)|ERLW}"
+				],
+				[
+					"{@race Human (Mark of Handling)|ERLW}"
+				],
+				[
+					"{@race Human (Mark of Making)|ERLW}"
+				],
+				[
+					"{@race Human (Mark of Passage)|ERLW}"
+				],
+				[
+					"{@race Human (Mark of Sentinel)|ERLW}"
+				],
+				[
+					"{@race Kalashtar|ERLW}"
+				],
+				[
+					"{@race Kenku|MPMM}"
+				],
+				[
+					"{@race Kobold|MPMM}"
+				],
+				[
+					"{@race Leonin|MOT}"
+				],
+				[
+					"{@race Lizardfolk|MPPM}"
+				],
+				[
+					"{@race Loxodon|GGR}"
+				],
+				[
+					"{@race Minotaur|MPMM}"
+				],
+				[
+					"{@race Orc|MPMM}"
+				],
+				[
+					"{@race Reborn|VRGR}"
+				],
+				[
+					"{@race Shifter |ERLW}"
+				],
+				[
+					"{@race Simic Hybrid|GGR}"
+				],
+				[
+					"{@race Tabaxi|MPMM}"
+				],
+				[
+					"{@race Tiefling|PHB}"
+				],
+				[
+					"{@race Tiefling (Variant)|SCAG}"
+				],
+				[
+					"{@race Tiefling (Asmodeus)|MTF}"
+				],
+				[
+					"{@race Tiefling (Baalzebul)|MTF}"
+				],
+				[
+					"{@race Tiefling (Dispater)|MTF}"
+				],
+				[
+					"{@race Tiefling (Fierna)|MTF}"
+				],
+				[
+					"{@race Tiefling (Glasya)|MTF}"
+				],
+				[
+					"{@race Tiefling (Levistus)|MTF}"
+				],
+				[
+					"{@race Tiefling (Mammon)|MTF}"
+				],
+				[
+					"{@race Tiefling (Mephistopheles)|MTF}"
+				],
+				[
+					"{@race Tiefling (Zariel)|MTF}"
+				],
+				[
+					"{@race Tortle|MPMM}"
+				],
+				[
+					"{@race Triton|MPMM}"
+				],
+				[
+					"{@race Vedalken|GGR}"
+				],
+				[
+					"{@race Verdan|AI}"
+				],
+				[
+					"{@race Warforged|ERLW}"
+				],
+				[
+					"{@race Owlin|MPMM}"
+				],
+				[
+					"{@race Yuan-Ti|MPMM}"
+				],
+				[
+					"{@race Satyr|MPMM}"
+				],
+				[
+					"{@race Kitsune|crystalLegends}"
+				],
+				[
+					"{@race Plasmoid|AAG}"
+				],
+				[
+					"{@race Kender|DSoTDQ}"
+				],
+				[
+					"{@race Thri-Kreen|AAG}"
+				],
+				[
+					"{@race Giff|AAG}"
+				],
+				[
+					"{@race Astral Elf|AAG}"
+				]
+			]
+		}
+	]
+}
