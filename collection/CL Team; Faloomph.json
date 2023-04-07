@@ -19,7 +19,7 @@
 			}
 		],
 		"dateAdded": 1572301894,
-		"dateLastModified": 1680886092,
+		"dateLastModified": 1680895815,
 		"_dateLastModifiedHash": "35191aba6b"
 	},
 	"race": [
@@ -32,45 +32,7 @@
 			"speed": {
 				"walk": 30
 			},
-			"ability": [
-				{
-					"choose": {
-						"weighted": {
-							"from": [
-								"str",
-								"dex",
-								"con",
-								"int",
-								"wis",
-								"cha"
-							],
-							"weights": [
-								2,
-								1
-							]
-						}
-					}
-				},
-				{
-					"choose": {
-						"weighted": {
-							"from": [
-								"str",
-								"dex",
-								"con",
-								"int",
-								"wis",
-								"cha"
-							],
-							"weights": [
-								1,
-								1,
-								1
-							]
-						}
-					}
-				}
-			],
+			"lineage": "VRGR",
 			"fluff": {
 				"images": [
 					{
