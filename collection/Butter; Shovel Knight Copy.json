@@ -4,17 +4,17 @@
 		"sources": [
 			{
 				"json": "Shovels_And_Shields_Test_Copy",
-				"abbreviation": "TTOM",
-				"full": "Shovel Knight: Copy Test Tomato",
+				"abbreviation": "TPPI",
+				"full": "ShovelsTestingTomato",
 				"authors": [
 					"Adam Cohen",
 					"Butter",
-					"Mister Spleen"
+					"Mister"
 				],
 				"convertedBy": [
 					"Bowsori#7981",
 					"Butter",
-					"Mister Spleen"
+					"Mister"
 				],
 				"version": "1.1",
 				"url": "https://yachtclubgames.com/wp-content/uploads/boardGameCameos/Shovels_And_Shields_Test_Copy_V1.1.pdf",
@@ -27,7 +27,7 @@
 			"REL": "Knight: Relic"
 		},
 		"dateAdded": 1613582781,
-		"dateLastModified": 1680856255,
+		"dateLastModified": 1680856677,
 		"_dateLastModifiedHash": "b741fa9dfe"
 	},
 	"class": [
