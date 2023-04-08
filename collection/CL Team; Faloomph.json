@@ -24,6 +24,143 @@
 	},
 	"race": [
 		{
+			"name": "Kalashtar:CL",
+			"source": "crystalLegends",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"lineage": "VRGR",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/704081845750333521/1094133404926230628/Kalashtar_example.jpg"
+						}
+					}
+				],
+				"entries": [
+					{
+						"type": "quote",
+						"entries": [
+							"I am Kalashtar, born into the living, and of the dead. Their memories come to me in dreams, and at times their voices whisper in the silence of my mind. As long as I am alive - I am the bridge between the two states of being."
+						],
+						"by": "Kalashtar, the Reaper"
+					},
+					{
+						"entries": [
+							"The Kalashtar are humans born in strange circumstances that connect them to spirits that have yet to move on from the material plane. Some are born in graveyards or during bloody wars - but the exact circumstances that lead to such connections to the dead are unknown. Kalashtar are often seen as wise, spiritual people for great compassion for others - but there is an unmistakable alien quality to the Kalashtar, as though they themselves may not fully be alive.",
+							"The spirits that follow a kalashtar can drive it towards many alignments. Most Kalashtar combine strong self-discipline with compassion for all beings, but some Kalashtar are drawn to evil by the spirits that whisper to them.",
+							"Kalashtar mature and age at the same rate as humans.",
+							"Kalashtar are usually born to non-Kalashtar parents, and therefore can have any name. However, some Kalashtar elect to take on titles to add to their name. Kalashtar, the cleric to which Kalashtar are named for - considered the first Kalashtar in recorded history - called themself 'the Reaper.' Examples of these titles include 'the Wretched', 'the Silent', 'the Holy', 'the Watchful', and 'the Messenger'."
+						]
+					},
+					{
+						"name": "Hunted by Nightmares",
+						"entries": [
+							"The dreams of the dead, even the righteous dead, are often wrought with terror, pain, and sorrow. A Kalashtar can sometimes dream about the memories of ambient spirits to gain insight to the area they are sleeping in. For this reason, Kalashtar often seek residences that are new, in neutral areas, that have not seen bloodshed - if only to have a good nights sleep."
+						]
+					},
+					{
+						"name": "Spirit Bound",
+						"entries": [
+							"Every Kalashtar has a connection to the spirits of the undead, a bond shared by other members of their bloodline. Kalashtar appear human, but their spiritual connection affects them in a variety of ways. Kalashtar have symmetrical, slightly angular features, and their eyes often glow when they are focused or expressing strong emotions.",
+							"Kalashtar can't directly communicate with spirits. Rather, they might experience this relationship as a sense of instinct and inspiration, drawing on the memories of the spirits when they dream. This connection grants kalashtar minor psionic abilities, as well as protection from psychic attacks. Some spirits are good and lawful, wishing to guide the Kalashtar to lead just and fulfilling lives - but some only wish to cause pain to the living. Work together with the DM to determine the nature of the spirits that haunt you. Typically, a Kalashtar knows the name and nature of their spirits, but some may know nothing of their spirits or the source of their psychic gifts, such as an orphaned Kalashtar raised among strangers.",
+							"The bond to the spirits of the dead can cause some Kalashtar to display unusual quirks. Consider rolling or selecting a trait from the Kalashtar Quirks table.",
+							{
+								"type": "table",
+								"caption": "Kalashtar Quirks",
+								"colLabels": [
+									"d10",
+									"Quirk"
+								],
+								"colStyles": [
+									"text-center",
+									"text-align-left"
+								],
+								"rows": [
+									[
+										"1",
+										"You try to understand the motives and feelings of your enemies."
+									],
+									[
+										"2",
+										"You prefer using telepathy over speaking aloud."
+									],
+									[
+										"3",
+										"You feel a strong drive to protect the innocent."
+									],
+									[
+										"4",
+										"You apply dream logic to mundane situations."
+									],
+									[
+										"5",
+										"You discuss things out loud with your spirits."
+									],
+									[
+										"6",
+										"You suppress your emotions and rely on logic."
+									],
+									[
+										"7",
+										"You are strongly influenced by the emotions of those around you."
+									],
+									[
+										"8",
+										"You prefer to find nonviolent solutions to problems whenever possible."
+									],
+									[
+										"9",
+										"You are haunted by warrior spirits, and will fight for any noble cause."
+									],
+									[
+										"10",
+										"You are secretly worried that anyone you meet may be a ghost."
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			"entries": [
+				{
+					"name": "Psychic Resistance",
+					"type": "entries",
+					"entries": [
+						"You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+					]
+				},
+				{
+					"name": "Soulsong",
+					"type": "entries",
+					"entries": [
+						"Your connection to your spirit allows you to magically transmit your thoughts to willing creatures within 120 feet of yourself. A contacted creature doesn't need to share a language with you to understand your thoughts, but it must be able to understand at least one language. Your telepathic link to a creature allows it to respond to you telepathically, but is broken if you and the creature move more than 120 feet apart, if either of you is {@condition incapacitated}, or if either of you mentally breaks the contact (no action required)."
+					]
+				},
+				{
+					"name": "Temperance",
+					"type": "entries",
+					"entries": [
+						"You have advantage on all Wisdom saving throws."
+					]
+				},
+				{
+					"name": "Umbral Presence",
+					"type": "entries",
+					"entries": [
+						"You know the {@spell mage hand} cantrip. Starting at 3rd level, you can cast the {@spell unseen servant} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell augury} spell with this trait, without requiring a material component. Once you cast {@spell unseen servant} or {@spell augury} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race). None of these spells require spell components when you cast them with this trait, and appear instead to originate from your manifested spirit."
+					]
+				}
+			]
+		},
+		{
 			"name": "Kitsune",
 			"source": "crystalLegends",
 			"size": [
