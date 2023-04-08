@@ -131,10 +131,10 @@
 			},
 			"entries": [
 				{
-					"name": "Psychic Resistance",
+					"name": "Psychic Resilience",
 					"type": "entries",
 					"entries": [
-						"You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+						"You have resistance to psychic damage."
 					]
 				},
 				{
