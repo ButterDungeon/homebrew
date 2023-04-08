@@ -19,7 +19,7 @@
 			}
 		],
 		"dateAdded": 1572301894,
-		"dateLastModified": 1680932831,
+		"dateLastModified": 1680933104,
 		"_dateLastModifiedHash": "35191aba6b"
 	},
 	"race": [
@@ -555,7 +555,7 @@
 					"{@race Human (Mark of Sentinel)|ERLW}"
 				],
 				[
-					"{@race Kalashtar|ERLW}"
+					"{@race Kalashtar:CL|crystalLegends}"
 				],
 				[
 					"{@race Kenku|MPMM}"
